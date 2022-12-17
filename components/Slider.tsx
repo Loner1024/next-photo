@@ -9,7 +9,8 @@ const Slider = ({sliders}: { sliders: SliderData[] }) => {
             <h1>Gallery</h1>
             {sliders.map((slider: SliderData, index: number) => {
                 return (
-                    <Image src={slider.image} alt="/" width="1440" height="600" style={{objectFit: "cover"}}/>
+                    <Image key={index} src={slider.image} alt="/" width="1440" height="600"
+                           style={{objectFit: "cover"}}/>
                 )
             })}
         </div>
