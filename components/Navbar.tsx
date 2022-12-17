@@ -35,7 +35,6 @@ const Navbar = () => {
                         <Link href='/'>Home</Link>
                     </li>
                     <li className="p-4">
-                        <Link href='/'>Home</Link>
                         <Link href='/#gallery'>Gallery</Link>
                     </li>
                     <li className="p-4">
